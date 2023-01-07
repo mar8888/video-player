@@ -28,7 +28,7 @@ const $progress = document.querySelector("#progress");
 
 $video.addEventListener("loadedmetadata", function () {
   $progress.max = $video.duration;
-  console.log("han cargao los datos", $video.duration);
+  //console.log("han cargao los datos", $video.duration);
 });
 
 $video.addEventListener("timeupdate", function () {
@@ -38,5 +38,5 @@ $video.addEventListener("timeupdate", function () {
 
 $progress.addEventListener("input", function () {
   $video.currentTime = $progress.value;
-  console.log($progress.value);
+  //console.log($progress.value);
 });
