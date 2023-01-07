@@ -38,7 +38,6 @@ body {
 }
 
 .player-progress {
-  background: yellow;
   position: absolute;
   inset-block-end: 0;
   inset-inline: 0;
